@@ -2,7 +2,7 @@ package kim.dencka.java.easy;
 
 public class ReverseStringII {
     public static void main(String[] args) {
-        System.out.println(reverseStr("abcabcab", 3));
+        System.out.println(reverseStr("abcabcab", 3)); // cbaabcba
     }
 
     public static String reverseStr(String s, int k) {
