@@ -3,7 +3,7 @@ package kim.dencka.java.easy;
 public class ShortestCompletingWord {
     public static void main(String[] args) {
         String[] words = {"looks", "pest", "stew", "show"};
-        System.out.println(shortestCompletingWord("1s3 456", words));
+        System.out.println(shortestCompletingWord("1s3 456", words)); // pest
     }
 
     public static String shortestCompletingWord(String licensePlate, String[] words) {
